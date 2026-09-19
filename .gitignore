@@ -4,5 +4,4 @@ dist
 *.log
 codex-build.log
 CODEX_PROMPT.md
-VERIFICATION.md
 *.tsbuildinfo
