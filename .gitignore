@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+*.log
+codex-build.log
+CODEX_PROMPT.md
+VERIFICATION.md
