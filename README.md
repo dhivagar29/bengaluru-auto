@@ -1,6 +1,6 @@
 # Bengaluru Auto
 
-Live: _pending_
+Live: https://bengaluru-fp-auto.vercel.app
 
 A desktop-first, first-person auto-rickshaw joyride through a compact, stylized Bengaluru. Warm afternoon light, coffee shops, leafy streets, a little traffic, and no hurry.
 
@@ -43,7 +43,7 @@ Steering needs movement. Slow down for corners. Esc pauses the ride; click Resum
 
 ## Stack
 
-Vite + TypeScript + React + React Three Fiber + @react-three/drei + three. Browser only; hardware-accelerated WebGL required. No backend. No GitHub/Vercel remotes or deployment configured.
+Vite + TypeScript + React + React Three Fiber + @react-three/drei + three. Browser only; hardware-accelerated WebGL required. No backend. Hosted on Vercel as project `bengaluru-fp-auto` (repo `dhivagar29/bengaluru-auto`).
 
 ## Scope
 
@@ -51,4 +51,4 @@ Fictional, compact geography inspired by Bengaluru, not a geographic reconstruct
 
 ## Verification
 
-Physics tests passed using locally available transpilation tooling. Dependency installation is blocked by this workspace’s restricted network, so the production build and browser checks are pending. See [VERIFICATION.md](VERIFICATION.md) for evidence and the smoke-test checklist.
+Local ship checks (after deps install): `npm test` — 3 physics tests pass; `npm run build` — TypeScript + Vite production bundle green. Live cold load: https://bengaluru-fp-auto.vercel.app (HTTP 200). See [VERIFICATION.md](VERIFICATION.md) for the smoke-test checklist.
